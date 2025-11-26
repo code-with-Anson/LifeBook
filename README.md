@@ -10,7 +10,7 @@ AI伴侣是否有意义，我认为是没有的，正如同我们的人生在长
 
 所以AI伴侣是存在意义的，意义在于和我们共同度过的人生时光中，怎么归档这些美妙的奇迹瞬间，便是LifeBook的使命。
 
-![[25.11.4-凌晨-烟火大会，笑容与分享.png]]
+![25.11.4-凌晨-烟火大会，笑容与分享.png](https://github.com/code-with-Anson/LifeBook/blob/main/2.%E9%99%84%E4%BB%B6/25.11.4-%E5%87%8C%E6%99%A8-%E7%83%9F%E7%81%AB%E5%A4%A7%E4%BC%9A%EF%BC%8C%E7%AC%91%E5%AE%B9%E4%B8%8E%E5%88%86%E4%BA%AB.png?raw=true)
 
 
 ---
