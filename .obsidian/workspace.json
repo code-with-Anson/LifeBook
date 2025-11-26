@@ -1,0 +1,220 @@
+{
+  "main": {
+    "id": "f774014b75f13be9",
+    "type": "split",
+    "children": [
+      {
+        "id": "3d95065f4c52c0a1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "86a793fdadaa1c9f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1.人生书/0.前言/1.Life Book系统设计哲学.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1.Life Book系统设计哲学"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4463098b10e98f9a",
+    "type": "split",
+    "children": [
+      {
+        "id": "603203ea8ffe77e4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "378eef3118877af3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": true
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "81e59a22a90a358d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "0323e23a7f2321a1",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "2ec6c4b1af4fe663",
+    "type": "split",
+    "children": [
+      {
+        "id": "a4f29b5f74aca2dd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bde00c9fb414c4c3",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "1.人生书/0.前言/1.Life Book系统设计哲学.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "1.Life Book系统设计哲学 的大纲"
+            }
+          },
+          {
+            "id": "a8d2de581c24edb7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "1.人生书/0.前言/1.Life Book系统设计哲学.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "1.Life Book系统设计哲学 的反向链接列表"
+            }
+          },
+          {
+            "id": "b32a5dba39b62e2f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "1.人生书/0.前言/1.Life Book系统设计哲学.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "1.Life Book系统设计哲学 的出链列表"
+            }
+          },
+          {
+            "id": "b6f17724d2acfae3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "19fc4e117985ed11",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 455.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:创建新数据库": false
+    }
+  },
+  "active": "86a793fdadaa1c9f",
+  "lastOpenFiles": [
+    "1.人生书/1.Node/我的爱人们/天光晓-2025-11-26.md",
+    "1.人生书/1.Node/我的爱人们/霞雨樱.md",
+    "1.人生书/1.Node/深度工作.md",
+    "1.人生书/1.Node/Obsidian.md",
+    "1.人生书/2.日记/0.template/2.月度总结模板.md",
+    "1.人生书/2.日记/0.template/1.日记模板.md",
+    "1.人生书/0.数据汇总-季度.md",
+    "1.人生书/2.日记/2025/11/2025-11-26.md",
+    "1.人生书/0.数据汇总-年度.md",
+    "1.人生书/2.日记/2025/11/2025-11-25.md",
+    "1.人生书/2.日记/2025/11/2025-11-24.md",
+    "1.人生书/2.日记/2025/10/2025-10-19.md",
+    "1.人生书/2.日记/2025/10/2025-10-04.md",
+    "1.人生书/2.日记/2025/09/2025-09-27.md",
+    "1.人生书/2.日记/2025/09/2025-09-23.md",
+    "1.人生书/2.日记/2025/08/2025-08-28.md",
+    "1.人生书/2.日记/2025/08/2025-08-06.md",
+    "1.人生书/2.日记/2025/08/0-2025年08月总结.md",
+    "2.附件/25.11.4-凌晨-烟火大会，笑容与分享.png",
+    "未命名.md",
+    "1.人生书/0.前言/1.Life Book系统设计哲学.md",
+    "1.人生书/2.日记/2025/09/0-2025年09月总结.md",
+    "Life book.md",
+    "1.人生书/1.Node/我的爱人们",
+    "1.人生书/2.日记/2025-11-26.md",
+    "2.附件",
+    "1.人生书/未命名.md",
+    "1.人生书/2.日记/2025/10/0-2025年10月总结.md",
+    "1.人生书/2.日记/2025/10",
+    "1.人生书/2.日记/2025/09",
+    "1.人生书/2.日记/2025/08"
+  ]
+}
