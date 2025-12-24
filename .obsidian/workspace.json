@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "README.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -74,8 +74,7 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -194,10 +193,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "191a6053ff6502ad",
+  "active": "13ebafcc090da774",
   "lastOpenFiles": [
-    "1.人生书/2.日记/2025/12/2025-12-01.md",
+    "未命名.md",
     "README.md",
+    "1.人生书/2.日记/2025/12/2025-12-01.md",
     "1.人生书/2.日记/0.template/1.日记模板.md",
     "1.人生书/3.数据汇总/0.数据汇总-指定月数.md",
     "1.人生书/2.日记/0.template/4.季度总结模板.md",
@@ -205,7 +205,6 @@
     "1.人生书/2.日记/0.template/2.周度总结模板.md",
     "1.人生书/2.日记/2025/12/2025-12-25.md",
     "1.人生书/0.前言/1.LifeBook系统设计哲学.md",
-    "未命名.md",
     "1.人生书/2.日记/2025/0-2025年Q2总结.md",
     "1.人生书/2.日记/2025/0-2025年Q3总结.md",
     "未命名 1.md",
