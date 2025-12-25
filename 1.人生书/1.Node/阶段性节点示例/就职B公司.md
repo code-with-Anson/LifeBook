@@ -4,3 +4,84 @@
 这样可以通过关系图谱直接查看到何时 **就职于B公司**
 也可以使用Dataview脚本直接获取所有 **就职于B公司** 时的相关日记
 
+
+
+```dataviewjs
+/*
+ * DataviewJS: 自动汇总全文 (2.2版 - 兼容旧版)
+ * ---------------------------------
+ * 1. 修复了 v2.1 的排序 Bug。
+ * 2. [兼容] 删除了所有 "dv.markdown" 函数调用，
+ * 以兼容你的旧版 Dataview 插件。
+ * 3. 【【【 只保留核心功能：统计 + 复制 】】】
+*/
+
+// --- 1. 定义过滤器 ---
+const EXCLUDE_PATHS = ["0.template/", "99-Templates/"];
+
+// --- 2. 获取并过滤文件 ---
+const files = dv.current().file.inlinks.filter(
+    f => !EXCLUDE_PATHS.some(path => f.path.includes(path))
+);
+
+// --- 3. 准备异步加载所有文件内容 ---
+let contentToCopy = ""; 
+const promises = [];
+
+for (let file of files) {
+    promises.push(
+        dv.io.load(file.path).then(page => {
+            const fileName = file.path.split('/').pop(); 
+            return {
+                name: fileName,
+                content: page
+            };
+        })
+    );
+}
+
+// --- 4. 等待所有文件都读取完毕后，再执行 ---
+Promise.all(promises).then(pages => {
+    
+    // 4a. 按文件名（日期）排序
+    pages.sort((a, b) => a.name.localeCompare(b.name));
+    
+    // 4b. 拼凑所有内容
+    for (let page of pages) {
+        contentToCopy += "\n\n---\n\n## 🔗 " + page.name + "\n\n";
+        contentToCopy += page.content;
+    }
+
+    // --- 5. 统计字数 ---
+    const charCount = contentToCopy.length;
+    const statsText = `📊 统计：共 ${pages.length} 篇笔记，约 ${charCount} 字`;
+    
+    // (这是我们最终要复制的完整内容)
+    const finalContent = statsText + "\n" + contentToCopy;
+
+    // --- 6. 【【【 核心：一键复制按钮 】】】 ---
+    const button = dv.el("button", "📋 一键复制全部内容");
+    
+    button.onclick = () => {
+        navigator.clipboard.writeText(finalContent).then(() => {
+            button.innerText = "✅ 已复制到剪贴板!";
+            setTimeout(() => { button.innerText = "📋 一键复制全部内容"; }, 2000);
+        }, () => {
+            button.innerText = "❌ 复制失败 (请检查权限)";
+        });
+    };
+
+    // --- 7. 【【【 核心：渲染结果 (兼容版) 】】】 ---
+    
+    // 7a. 渲染按钮 (dv.el 是所有版本都支持的)
+    dv.el("div", button);
+    
+    // 7b. 渲染统计 (我们用 dv.el("h3", ...) 替代 dv.markdown)
+    dv.el("h3", statsText);
+    
+    // 7c. 渲染提示
+    dv.el("p", "✅ 复制功能已就绪。");
+});
+
+```
+
