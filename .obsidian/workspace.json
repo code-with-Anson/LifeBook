@@ -11,14 +11,14 @@
             "id": "13ebafcc090da774",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "README.md",
-                "bFile": "README.md",
-                "aRef": ""
+                "file": "README_EN.md",
+                "mode": "preview",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: README"
+              "icon": "lucide-file",
+              "title": "README_EN"
             }
           }
         ]
@@ -189,13 +189,13 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "bases:创建新数据库": false,
-      "obsidian-git:Open Git source control": false,
-      "remotely-save:Remotely Save": false
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "13ebafcc090da774",
   "lastOpenFiles": [
     "README.md",
+    "README_EN.md",
     "1.人生书/0.前言/1.LifeBook系统设计哲学.md",
     "1.人生书/0.使用手册/0.用户使用手册.md",
     "1.人生书/0.使用手册/1.AI使用手册.md",
@@ -220,7 +220,6 @@
     "未命名.md",
     "1.人生书/2.日记/0.template/4.季度总结模板.md",
     "1.人生书/2.日记/0.template/3.月度总结模板.md",
-    "1.人生书/2.日记/0.template/2.周度总结模板.md",
     "1.人生书/2.日记/2025/11",
     "1.人生书/2.日记/2025/10",
     "1.人生书/2.日记/2025/09",

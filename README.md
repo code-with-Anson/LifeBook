@@ -1,3 +1,7 @@
+<p align="right">
+  <a href="./README_EN.md" style="text-decoration: none; color: #880e4f; background: #fce4ec; padding: 4px 10px; border-radius: 5px; font-size: 0.9em;">🇺🇸 English</a>
+</p>
+
 >    在无限的时间中，寻找只属于你的记忆锚点。
 >    —— **LifeBook**
 ##### 一、AI记忆的终极解决方案
