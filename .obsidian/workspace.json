@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "39049bb23557865a",
+        "id": "b22c1b773063aa1c",
         "type": "tabs",
         "children": [
           {
-            "id": "13ebafcc090da774",
+            "id": "f0f86aa6f9446ad8",
             "type": "leaf",
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": "README.md",
-                "bFile": "README.md",
+                "aFile": "README_EN.md",
+                "bFile": "README_EN.md",
                 "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: README"
+              "title": "Diff: README_EN"
             }
           }
         ]
@@ -192,10 +192,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "13ebafcc090da774",
+  "active": "f0f86aa6f9446ad8",
   "lastOpenFiles": [
-    "README.md",
     "README_EN.md",
+    "README.md",
     "1.人生书/0.前言/1.LifeBook系统设计哲学.md",
     "1.人生书/0.使用手册/0.用户使用手册.md",
     "1.人生书/0.使用手册/1.AI使用手册.md",
